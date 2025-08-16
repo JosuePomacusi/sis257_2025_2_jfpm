@@ -1,1 +1,50 @@
 Apuntes GIT
+ 24  mkdir sis257_2025_2_jfpm
+   25  ls
+   26  ls -ls
+   27  ls -la
+   28  cd sis257_2025_2_jfpm/
+   29  pwd
+   30  touch README.md
+   31  ls
+   32  echo 'SIS257' > README.md
+   33  cd README.md
+   34  cat README.md
+   35  strings README.md
+   36  string README.md
+   37  git init
+   38  git status
+   39  git add README.md
+   40  git status
+   41  git commit -m 'Creacion repositorio SIS257 con archivo README'
+   42  git status
+   43  cat README.md
+   44  git checkaut -b demo_git
+   45  git checkout -b demo_git
+   46  cat README.md
+   47  echo ' 2/2025' >> README.md
+   48  cat README.md
+   49  nano README.md
+   50  cat README.md
+   51  mkdir demo_git
+   52  ls
+   53  ls -la
+   54  cd demo_git/
+   55  cd ..
+   56  echo 'Apuntes GIT' > demo_git/apuntes.txt
+   57  ls demo_git
+   58  cat demo_git/apuntes.txt
+   59  git status
+   60  git add .
+   61  git status
+   62  git commit -m 'feat: Se agrega apuntes.txt en demo_git'
+   63  git switch main
+   64  ls
+   65  cat README.md
+   66  git config --global user.name 'Josue Pomacusi'
+   67  git config --global user.email 'pomacusi7@gmail.com'
+   68  git remote add origin https://github.com/JosuePomacusi/sis257_2025_2_jfpm.git
+   69  git push -u origin main
+   70  git merge demo_git
+   71  git push
+   72  history
